@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/colorBackground" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Foto diri -->
+            <ImageView
+                android:id="@+id/about_image"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:src="@drawable/me"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="Profile Photo"
+                android:scaleType="centerCrop" />
+
+            <!-- Nama -->
+            <TextView
+                android:id="@+id/about_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Rizka Fauziyah"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent" />
+
+            <!-- Email  -->
+            <TextView
+                android:id="@+id/about_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="uziyraf@gmail.com"
+                android:textSize="16sp"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

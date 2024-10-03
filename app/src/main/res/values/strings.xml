@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">My Fav Movie</string>
+
+    <string name="movie_name">Fav Movie</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Divergent</item>
+        <item>Extraction </item>
+        <item>John Wick: Chapter 3 - Parabellum</item>
+        <item>No Time to Die </item>
+        <item>Now You See Me </item>
+        <item>Ready Player One </item>
+        <item>Snowden</item>
+        <item>The Circle </item>
+        <item>The Maze Runner </item>
+        <item>Top Gun: Maverick  </item>
+    </string-array>
+    <string-array name="data_description">
+        <item>"Divergent" mengikuti perjalanan Tris saat dia beradaptasi dengan kehidupan baru di Dauntless dan membentuk hubungan dengan pelatihnya, Four. Dia harus berjuang melawan ancaman dari fraksi Erudite yang berencana mengambil alih kekuasaan. Film ini menyoroti tema identitas, keberanian, dan cinta di tengah konflik yang mendalam </item>
+        <item>"Extraction" adalah film aksi yang mendebarkan dengan pertarungan yang intens dan visual yang menakjubkan. Dalam usaha menyelamatkan Ovi, Tyler harus berhadapan dengan berbagai musuh dan mengatasi tantangan yang mengancam nyawanya.</item>
+        <item>Film ini melanjutkan kisah John Wick, mantan pembunuh bayaran, yang terpaksa berjuang melawan para pembunuh lainnya. Dikenal dengan aksi yang menakjubkan dan koreografi pertarungan yang brilian, "John Wick: Chapter 3" menampilkan dunia kejahatan yang penuh warna dan ketegangan.</item>
+        <item>"No Time to Die" mengeksplorasi tema pengorbanan dan penebusan saat Bond menghadapi masa lalu dan musuh yang lebih berbahaya dari sebelumnya. Film ini dipenuhi dengan aksi yang mendebarkan, intrik, dan elemen emosional.</item>
+        <item> Dengan plot yang penuh kejutan dan trik sulap yang menakjubkan, "Now You See Me" menggambarkan bagaimana pesulap bisa menggunakan keterampilan mereka untuk merampok bank dan menghindari penangkapan. Film ini penuh dengan ketegangan dan intrik.</item>
+        <item>"Ready Player One" menggambarkan petualangan Wade di dalam OASIS, tempat di mana dia menghadapi berbagai tantangan dan musuh, serta berinteraksi dengan karakter-karakter dari budaya pop. Film ini mengeksplorasi tema pelarian, persahabatan, dan pertempuran untuk kebebasan.</item>
+        <item>"Snowden" menggambarkan perjalanan Snowden dari pegawai pemerintah hingga menjadi whistleblower. Dengan nuansa dramatis dan ketegangan, film ini mengeksplorasi keputusan sulit yang diambil Snowden dan dampaknya terhadap dirinya serta dunia.</item>
+        <item>"The Circle" mengeksplorasi isu-isu etika seputar pengawasan dan kontrol informasi di era digital. Melalui cerita Mae, film ini menggambarkan bagaimana perusahaan teknologi dapat mempengaruhi privasi dan kebebasan individu.</item>
+        <item>"The Maze Runner" adalah film yang penuh aksi dan misteri, di mana Thomas dan teman-temannya harus bekerja sama untuk memecahkan teka-teki labirin dan mengungkap kebenaran di balik eksperimen yang menjebak mereka.</item>
+        <item>"Top Gun: Maverick" adalah film yang penuh aksi dan emosional, menampilkan pertarungan udara yang mendebarkan dan hubungan antar karakter. Film ini menggali tema pengorbanan, persahabatan, dan keberanian dalam menghadapi masa lalu.</item>
+    </string-array>
+    <string-array name="data_player">
+        <item>"Shailene Woodley, Theo James, Kate Winslet"</item>
+        <item>"Chris Hemsworth, Rudhraksh Jaiswal, Randeep Hooda"</item>
+        <item>"Keanu Reeves, Michael Nyqvist, Alfie Allen"</item>
+        <item>"Daniel Craig, Léa Seydoux, Rami Malek"</item>
+        <item>"Jesse Eisenberg, Mark Ruffalo, Woody Harrelson"</item>
+        <item>"Tye Sheridan, Olivia Cooke, Ben Mendelsohn"</item>
+        <item>"Joseph Gordon-Levitt, Shailene Woodley, Melissa Leo"</item>
+        <item>"Emma Watson, Tom Hanks, John Boyega"</item>
+        <item> "Dylan O'Brien, Kaya Scodelario, Will Poulter"</item>
+        <item>"Tom Cruise, Kelly McGillis, Val Kilmer"</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/divergent</item>
+        <item>@drawable/extraction</item>
+        <item>@drawable/johnwick</item>
+        <item>@drawable/notimenodie</item>
+        <item>@drawable/nowyouseeme</item>
+        <item>@drawable/readyplayerone</item>
+        <item>@drawable/snowden</item>
+        <item>@drawable/thecircle</item>
+        <item>@drawable/themazerunner</item>
+        <item>@drawable/topgun</item>
+    </integer-array>
+        <integer-array name="data_release_year">
+            <item>2014</item>
+            <item>2020</item>
+            <item>2014</item>
+            <item>2021</item>
+            <item>2013</item>
+            <item>2018</item>
+            <item>2016</item>
+            <item>2017</item>
+            <item>2014</item>
+            <item>1986</item>
+        </integer-array>
+    <string name="player_label">Player: %1$s</string>
+    <string name="release_year_label">Release Year: %1$d</string>
+    <string name="move_with_data">Move with Data</string>
+    <string name="data_received">Data Received</string>
+    <string name="data_About">About</string>
+    <string name="about_name">Rizka Fauziyah</string>
+    <string name="about_email">uziyraf@gmail.com</string>
+</resources>
